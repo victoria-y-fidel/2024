@@ -54,7 +54,7 @@
         $mensaje .= "Alergias/Intolerancias: $alergia";
 
         // Dirección de correo electrónico a la que se enviará el mensaje
-        $destinatario = '14septiembre2024@gmail.com'; // Reemplaza con tu dirección de correo electrónico
+        $destinatario = 'franortiz2002@gmail.com'; // Reemplaza con tu dirección de correo electrónico
 
         // Asunto del mensaje
         $asunto = 'Confirmación de asistencia';
@@ -63,7 +63,7 @@
         mail($destinatario, $asunto, $mensaje);
 
         // Redirige a una página de confirmación o muestra un mensaje de éxito
-        header('Location: formulario_enviado.html'); // Reemplaza 'formulario_enviado.html' con la ruta de tu página de confirmación
+        header('Location: https://victoria-y-fidel.github.io/2024/formulario_enviado.html'); // Reemplaza 'formulario_enviado.html' con la ruta de tu página de confirmación
         exit();
     }
     ?>
